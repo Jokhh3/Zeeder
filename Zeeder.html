@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		body{
+			font-family: sans-serif;
+		}
+		#menu.#content.#footer{
+			padding: 1px;
+		}
+		#header{
+			background-color: blue;
+			height: 60px;
+		}
+		nav{
+			height: 60px;
+		}
+		.logo{
+			color: white;
+			font-size: 30px;
+			background-color: blue;
+		}
+		#menu{
+			font-size: 17px;
+			color: black;
+			float: left;
+			font-weight: 900;
+			background-color: whitesmoke;
+			width: 100px;
+			height: 90vh;
+			text-align: center;
+			display: none;
+		}
+		.mebar{
+			float: left;
+			margin-top: -25px;
+			background-color: black;
+			color: white;
+			width: 20px;
+			height: 20px;
+			font-size: 20px;
+			border-radius: 2px;
+		}
+		#menuBar{
+			display: none;
+		}
+#menuBar:checked~#menu{
+left: -190px;
+width: 100px auto;
+display: block;
+
+}
+#content{
+	text-align: center;
+}
+#footer{
+	margin-top: 100vh;
+	color: white;
+	background-color: black;
+	font-size: 19px;
+	text-align: center;
+}
+nav ul{
+	float: right;
+	margin-right: 10px;
+}
+nav ul li{
+list-style: none;
+text-align: center;
+
+}
+nav ul li a{
+	background-color: blueviolet;
+	color: white;
+	display: inline-block;
+	padding: 10px 10px;
+	font-weight: 900;
+	border-radius: 10px;
+}
+nav ul li a:hover{
+	background-color: blue;
+}
+</style>
+</head>
+<body>
+<nav class="header">
+	<label class="logo">ZEEDER</label>
+	<ul><li><a href="#footer">Contact us</a></li></ul>
+	<ul><li><a href="year.html?=index">Home</a></li></ul>
+	<ul><li><a href="year.html?=index">Blog</a></li></ul>
+	<ul><li><a href="year.html?=index">Home</a></li></ul>
+</nav>
+	<label for="menuBar" class="mebar">||||</label>
+<input type="checkbox" id="menuBar">
+<div id="menu">
+Menu
+</div>
+<div id="content" align="center">
+	<h2>Welcome to ZEEDER!</h2>
+<br><br>
+<h3><a href="#">About us</h3></a>
+<p>Nous sommes groupes ZEEDER,nous sommes situé à Parakou-Bénin.<br>si vous avez besoin de nos service n'ésiter pas à nous contacter et en discuter sur vos projet<br>Nous avons une équipe de développeur d'application web,site internet,E-commerce<br> et d'application de comptablité.
+
+</p>
+
+<h3>Contact us-social</h3>
+<p><a href="https://www.facebook.com/Mquatre Alane Walker Blach">In Facebook</a></p>
+<br>
+<p><a href="+22955054634">In WhatsApp</a></p>
+<h3>Témognage sur notre ZEEDER</h3>
+</div>
+
+<div id="footer">
+	<h3>Contact us</h3>
+	<p>Phone:<a href="tel:+22955054634">+22955054634</a></p>
+	<p>E-mail:<a href="mailto:gd3201717@gmail.com">gd3201717@gmail.com</a></p>
+<h3>Create by Bokar Yalcouye||Copyright:2022</h3>
+</div>
+</body>
+</html>
